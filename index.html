@@ -4,7 +4,11 @@
     <meta charset="utf-8">
     <title>Mis Películas</title>
     <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="assets/libs/swiper-bundle.min.js"></script>
+    <script src="assets/libs/relax.min.js"></script>
+    <script src="js/app.js"></script>
+
 </head>
 <body>
     <div id="main">
@@ -17,4 +21,30 @@
     </div>
     <script src="app.js"></script>
 </body>
+</div>
+
+<body>
+    <header>
+        <h1>Mis Películas</h1>
+        <nav>
+            <button onclick="indexContr()">Inicio</button>
+            <button onclick="searchView()">Buscar Película</button>
+            <button onclick="newContr()">Añadir Película</button>
+            <button onclick="resetContr()">Resetear Lista</button>
+        </nav>
+    </header>
+
+    <main id="main">
+        <!-- Contenido dinámico de la aplicación -->
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Mis Películas - Aplicación para gestión de películas</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <script src="js/scripts.js"></script>
+
+</body>
 </html>
+
